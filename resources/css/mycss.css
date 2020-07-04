@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+.green-div{
+	background-color: #00E400;
+}
+.yellow-div{
+	background-color: yellow;
+}
+.orange-div{
+	background-color: #FF7E00;
+}
+.red-div{
+	background-color: red;
+}
+.purple-div{
+	background-color: #8F3F97;
+}
+.brown-div{
+  background-color: #7F0023;
+}
+.blue-div{
+	background-color: #52A3FF
+}
+.shadow_box{
+	box-shadow:0 0px 6px 3px rgba(0,0,0,0.25);
+	margin-top: 10px;
+}
+.warning_text{
+	text-align:left;
+	padding-top:20px;
+	padding-left:20px;
+}
+.aqi_index{
+	font-size:20px;
+}
+.aqi_index_water{
+  font-size:60px;
+}
+.aqi_label_water{
+  font-size:20px;
+}
+.iconAQI{
+	margin-bottom: 5px;
+	width:40px;
+	height:40px;
+}
+#pinIcon{
+	margin-top: 10px;
+	float:right;
+	margin-bottom: 10px;
+	width:50px;
+	height: 50px;
+}
+
+
+.site-footer
+{
+  /*background-color:#28A745;*/
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#fff;
+}
+.site-footer hr
+{
+  border-top-color:#fff;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#fff;
+}
+.site-footer a:hover
+{
+  color:#fff;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#fff
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+/*
+#weather_icon{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	width:40px;
+	height:40px;
+}*/
